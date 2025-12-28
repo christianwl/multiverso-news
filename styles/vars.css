@@ -1,0 +1,12 @@
+:root {
+    --bg-color: #292929;
+    --text-color: #f4f4f4;
+    --text-info: #9f95ac;
+}
+
+
+.dark {
+    --bg-color: #d8d8d8;
+    --text-color: #292929;
+    --text-info: #292929;
+}
