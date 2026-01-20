@@ -26,5 +26,13 @@ O site é um modelo de página inicial estruturado de forma semântica:
 * **HTML5** (Tags semânticas)
 * **CSS3** (Estilização e modo escuro)
 
+## Autor
+
+<div>
+  <a href="https://github.com/christianwl">
+    <img src="https://contrib.rocks/image?repo=christianwl/multiverso-news" alt="foto do(s) autor(es)"/>
+  </a>
+</div>
+
 ---
 *Este projeto foi desenvolvido para fins estritamente educacionais.*
