@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Multiverso News</title>
 
     <meta
       name="description"
@@ -11,11 +13,7 @@
     />
     <meta name="author" content="christianwl" />
 
-    <title>Multiverso News</title>
-
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/vars.css" >
-    <link rel="stylesheet" href="./styles/style.css" >
+    <link rel="stylesheet" href="./src/styles/style.css" >
 
 </head>
 
@@ -23,7 +21,7 @@
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a href="index.html">
-                <img class="logo" src="./img/Logos/LogoMN.png" alt="Logo de um urso roxo usando um joystick">    
+                <img class="logo" src="./src/assets/img/logos/mn-logo.png" alt="Logo de um urso roxo usando um joystick">    
             </a>
             <div class="cabecalho__div__links">
                 <a class="cabecalho__links" href="">
@@ -36,7 +34,7 @@
                     Musicas
                 </a>
             </div>
-            <button class="buttomTema" onclick="mudaTema()"><img src="./img/UI/Dark Mode.png" alt=""></button>
+            <button class="buttomTema" onclick="mudaTema()"><img src="./src/assets/img/ui/dark-mode.png" alt=""></button>
         </nav>
     </header>
     <main class="container">
@@ -46,7 +44,7 @@
         <div class="container__artigos">
             <article class="container__noticia">
                 <a href="">
-                    <img class="noticia__imagem" src="./img/Noticias/img_silksong.png" alt="Novo jogo do Hollow Knight">
+                    <img class="noticia__imagem" src="./src/assets/img/noticias/silksong.png" alt="Novo jogo do Hollow Knight">
                 </a>
                 <div class="container__noticia__div">
                     <h2>
@@ -60,7 +58,7 @@
             </article>
             <article class="container__noticia">
                 <a href="">
-                    <img class="noticia__imagem" src="./img/Noticias/img_eldenRing.png" alt="Novo jogo Elden Ring tem um Heroi">
+                    <img class="noticia__imagem" src="./src/assets/img/noticias/elden-ring.png" alt="Novo jogo Elden Ring tem um Heroi">
                 </a>
                 <div class="container__noticia__div">
                     <h2>
@@ -72,8 +70,8 @@
             </article>
             <article class="container__noticia">
                 <a href="">
-                    <img class="noticia__imagem" src="./img/Noticias/img_cookieclicker.png"
-                        alt="Novo jogo Elden Ring tem um Heroi">
+                    <img class="noticia__imagem" src="./src/assets/img/noticias/cookie-clicker.png"
+                        alt="Cockie Clicker">
                 </a>
                 <div class="container__noticia__div">
                     <h2>
@@ -90,7 +88,7 @@
     <footer>
         <div >
             <a class="rodape__footer" href="">
-                <img class="logo" src="./img/Logos/LogoMN.png" alt="Logo de um urso roxo usando um joystick">  
+                <img class="logo" src="./src/assets/img/logos/mn-logo.png" alt="Logo de um urso roxo usando um joystick">  
                 <p class="rodape__footer__titulo">Multiverso News</p>
             </a>
         </div>
@@ -101,7 +99,7 @@
         </p>
 
     </footer>
-    <script src="app.js" defer></script>
+    <script src="./src/scripts/app.js" defer></script>
 </body>
 
 </html>
