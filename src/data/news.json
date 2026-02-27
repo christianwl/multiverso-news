@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "Novo jogo do Hollow Knight",
+      "resume": "Enquanto a espera por Silksong continua, a Team Cherry confirmou novos segredos para o universo de Hallownest. O foco será em mecânicas inéditas que prometem expandir o desafio do metroidvania original para os fãs veteranos.",
+      "banner": "src/assets/img/noticias/silksong.png",
+      "imageAlt": "Novo jogo do Hollow Knight",
+      "category": "Games"
+    },
+    {
+      "id": 2,
+      "title": "Novo jogo Elden Ring tem um Heroi",
+      "resume": "Um novo herói surgiu nas Terras Intermédias. Conhecido por derrotar Malenia sozinho para outros players, o jogador tornou-se um ícone de habilidade e solidariedade, transformando a luta mais difícil do game em um espetáculo de técnica.",
+      "banner": "src/assets/img/noticias/elden-ring.png",
+      "imageAlt": "Novo jogo Elden Ring tem um Heroi",
+      "category": "Games"
+    },
+    {
+      "id": 3,
+      "title": "Cookie clicker",
+      "resume": "O viciante jogo incremental recebeu novos portais e construções absurdas. A febre dos cliques continua atraindo milhares de jogadores que buscam bater recordes de decilhões de biscoitos, provando que o clássico ainda é o rei do gênero.",
+      "banner": "src/assets/img/noticias/cookie-clicker.png",
+      "imageAlt": "Cockie Clicker",
+      "category": "Games"
+    }
+  ]
+}
