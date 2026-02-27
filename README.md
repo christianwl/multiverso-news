@@ -24,6 +24,7 @@ O site é um modelo de página inicial estruturado de forma semântica:
 
 ### Atualização em 2026 (Melhorias)
 * **Refatoração:** Alterar a lógica do botão de "onClick" no html para "addEventListener" no JavaScript via id da tag.
+* **Dinamicidade:** Migração do conteúdo estático para consumo de dados via JSON com a API Fetch.
 
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** (Tags semânticas)
