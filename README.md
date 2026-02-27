@@ -22,6 +22,9 @@ O site é um modelo de página inicial estruturado de forma semântica:
 * **Organização:** Criação de pastas para separar arquivos (CSS, Imagens, etc), facilitando a manutenção.
 * **Conteúdo:** Atualização e revisão dos textos das notícias.
 
+### Atualização em 2026 (Melhorias)
+* **Refatoração:** Alterar a lógica do botão de "onClick" no html para "addEventListener" no JavaScript via id da tag.
+
 ## 🛠️ Tecnologias Utilizadas
 * **HTML5** (Tags semânticas)
 * **CSS3** (Estilização e modo escuro)

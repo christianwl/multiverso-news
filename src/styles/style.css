@@ -1,151 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import 'reset.css';
-@import 'vars.css';
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+@import "reset.css";
+@import "vars.css";
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .cabecalho {
-    padding: 1% 10%;
-    background-color: #242424;
-    /* position: fixed;
+  padding: 1% 10%;
+  background-color: #242424;
+  /* position: fixed;
     right: 0;
     left: 0; */
 }
 
 .cabecalho__menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.logo{
-    width: 146px;
+.logo {
+  width: 146px;
 }
 
-.cabecalho__div__links{
-    display: flex;
-    gap: 48px;
-    
-    width: 50%;
-    justify-content: space-around;
-    
+.cabecalho__div__links {
+  display: flex;
+  gap: 48px;
+
+  width: 50%;
+  justify-content: space-around;
 }
 .cabecalho__links {
-    font-size: 24px;
-    color: #f4f4f4;
+  font-size: 24px;
+  color: #f4f4f4;
 }
 
 .buttomTema {
-    background-color: transparent;
-    border-radius: 0;
-    border-color: transparent;
-    cursor: pointer;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: transparent;
+  cursor: pointer;
 }
 
 .container {
-    padding: 1% 10%;
+  padding: 1% 10%;
 }
 
 .container__titulo {
-    font-size: 3.5rem;
-    margin-bottom: 15px;
+  font-size: 3.5rem;
+  margin-bottom: 15px;
 }
 
 .container__subtitulo {
-    font-size: 2rem;
-    margin-bottom: 18px;
+  font-size: 2rem;
+  margin-bottom: 18px;
 }
 
 .container__artigos {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 .container__noticia {
-    display: flex;
-    align-items: center;
-    width: 65%;
-    gap: 22px;
-    border: 2px solid #9370db;
-    border-radius: 0 36px 36px 0;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  gap: 22px;
+  border: 2px solid #9370db;
+  border-radius: 0 36px 36px 0;
 }
 
 .container__noticia__div {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    padding: 3% 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 3% 0;
 }
 
 .container__noticia__titulo {
-    font-size: 1.75rem;
-    color: var(--text-color);
+  font-size: 1.75rem;
+  color: var(--text-color);
 }
 
 .container__noticia__info {
-    font-size: 1rem;
-    color: var(--text-info);
+  font-size: 1rem;
+  color: var(--text-info);
 }
 
-
 .noticia__imagem {
-    width: 100%;
-    border-radius: 8px;
-
+  width: 100%;
+  border-radius: 8px;
 }
 
 footer {
-    padding: 1% 10%;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    background-color: #242424;
+  padding: 1% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #242424;
 }
 
 .rodape__footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
 }
 .rodape__footer__titulo {
-    color: #f4f4f4;
-    font-size: 1.5rem;
+  color: #f4f4f4;
+  font-size: 1.5rem;
 }
 
 .rodape__c {
-    font-size: 1rem;
-    margin-bottom: 16px;
-    color: #BDBDBD;
-    text-align: center;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  color: #bdbdbd;
+  text-align: center;
 }
 
 @media (max-width: 1280px) {
-    .container {
-        padding: 1% 5%;
-    }
-    .container__artigos {
-        align-items: center;
-    }
-    .container__noticia {
-        flex-direction: column-reverse;
-        border-radius: 0 0 24px 24px;
-        padding-inline: 72px;
-    }
-    footer {
-        align-items: center;
-    }
-    .rodape__c {
-        text-align: center;
-    }
+  .container {
+    padding: 1% 5%;
+  }
+  .container__artigos {
+    align-items: center;
+  }
+  .container__noticia {
+    flex-direction: column-reverse;
+    border-radius: 0 0 24px 24px;
+    padding-inline: 72px;
+  }
+  footer {
+    align-items: center;
+  }
+  .rodape__c {
+    text-align: center;
+  }
 }

@@ -7,7 +7,12 @@
 
 /* 2. Remoção cirúrgica de margens que afetam layout */
 body,
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p,
 figure,
 blockquote,
@@ -24,7 +29,7 @@ body {
 
 /* 4. Base global do documento */
 body {
-  min-height: 100vh;   /* fallback */
+  min-height: 100vh; /* fallback */
   min-height: 100dvh; /* viewport dinâmica (mobile moderno) */
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -68,7 +73,12 @@ table {
 
 /* 9. Quebra segura de texto */
 p,
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
   hyphens: auto;
 }
